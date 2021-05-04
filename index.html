@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop Color Game</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/utilities.css">
+</head>
+<body>
+  <div class="main-header py-5">
+    <h1 class="lg">COLOR GAME</h1>
+    <p class="md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, libero! Voluptatem possimus rem ullam quidem expedita ipsam distinctio sequi dolore!</p>
+  </div>
+  <div class="pickColor">
+    <div class="empty">
+      <div class="fillRed" data-draggable="item"></div>
+    </div>
+    <div class="empty">
+      <div class="fillOrange" data-draggable="item"></div>
+    </div>
+    <div class="empty">
+      <div class="fillYellow" data-draggable="item"></div>
+    </div>
+    <div class="empty">
+      <div class="fillGreen" data-draggable="item"></div>
+    </div>
+    <div class="empty">
+      <div class="fillBlue" data-draggable="item"></div>
+    </div>
+  </div>
+  <div class="dropColor">
+    <div class="empty" data-draggable="target"></div>
+    <div class="empty" data-draggable="target"></div>
+    <div class="empty" data-draggable="target"></div>
+    <div class="empty" data-draggable="target"></div>
+    <div class="empty" data-draggable="target"></div>
+  </div>
+
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
